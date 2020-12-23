@@ -50,6 +50,10 @@ $matches = [
         "team_one_score" => 85,
         "team_two_score" => 71
     ],
-]
+];
+
+for ($i = 0; $i < count($matches); $i++) {
+    echo "<li>".$matches[$i][team_one_name]." - ".$matches[$i][team_two_name]." | ".$matches[$i][team_one_score]." - ".$matches[$i][team_two_score]."</li>";
+};
 
 ?>
